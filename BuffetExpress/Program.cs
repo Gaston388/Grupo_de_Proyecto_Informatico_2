@@ -1,50 +1,32 @@
-var builder = WebApplication.CreateBuilder(args);
+using Persistencia.Entidades;
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
-//"app.MapGet: crea un endpoint que responde a solicitudes HTTP GET.
-// "/": indica la ruta principal del servidor.
-// () =>: representa una funcion que se ejecutara cuando alguien acceda a esa ruta.
-// return valga la redundancia decir que devuelve un mensaje al cliente.
-app.MapGet("/", () =>
-{
-     return "Bienvenido a Buffet Express API";
-});
 
-// Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+     app.MapOpenApi();
+    app.UseSwaggerUI(options =>
+     options.SwaggerEndpoint("/openapi/v1.json", "v1"));
 }
 
-app.UseHttpsRedirection();
 
-var summaries = new[]
+ List<Producto>productos=new List<Producto>();
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+    productos.Add(new Producto{ Id = 1, Nombre = "chuchi", Descripcion = "arroz, algas, salmon y queso", Precio = 1200, Categoria = "Comidas" });
+    productos.Add(new Producto{ Id = 2, Nombre = "Empanada de Carne", Descripcion = "Empanada casera", Precio = 450, Categoria = "Comidas" });
+    productos.Add(new Producto{ Id = 3, Nombre = "Coca-Cola 500ml", Descripcion = "Bebida gaseosa", Precio = 600, Categoria = "Bebidas" });
+    productos.Add(new Producto{ Id = 4, Nombre = "Agua Mineral", Descripcion = "Agua sin gas", Precio = 400, Categoria = "Bebidas" });
+    productos.Add(new Producto{ Id = 5, Nombre = "Alfajor", Descripcion = "Alfajor de dulce de leche", Precio = 350, Categoria = "Postres" });
 };
 
-app.MapGet("/weatherforecast", () =>
+app.MapGet("/Producto", () =>
 {
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
-
+    return Results.Ok(productos);
+});
+app.UseHttpsRedirection();
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

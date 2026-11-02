@@ -1,0 +1,12 @@
+/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/bin/Debug/net10.0/Persistencia.deps.json
+/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/bin/Debug/net10.0/Persistencia.dll
+/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/bin/Debug/net10.0/Persistencia.pdb
+/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/obj/Debug/net10.0/Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/obj/Debug/net10.0/Persistencia.AssemblyInfoInputs.cache
+/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/obj/Debug/net10.0/Persistencia.AssemblyInfo.cs
+/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/obj/Debug/net10.0/Persistencia.csproj.CoreCompileInputs.cache
+/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/obj/Debug/net10.0/Persistencia.sourcelink.json
+/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/obj/Debug/net10.0/Persistencia.dll
+/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/obj/Debug/net10.0/refint/Persistencia.dll
+/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/obj/Debug/net10.0/Persistencia.pdb
+/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/obj/Debug/net10.0/ref/Persistencia.dll

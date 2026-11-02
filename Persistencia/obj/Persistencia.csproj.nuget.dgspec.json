@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\Proyecto2\\Grupo_de_Proyecto_Informatico_2\\Persistencia\\Persistencia.csproj": {}
+    "/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\repos\\Proyecto2\\Grupo_de_Proyecto_Informatico_2\\Persistencia\\Persistencia.csproj": {
+    "/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\Proyecto2\\Grupo_de_Proyecto_Informatico_2\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\repos\\Proyecto2\\Grupo_de_Proyecto_Informatico_2\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\Proyecto2\\Grupo_de_Proyecto_Informatico_2\\Persistencia\\obj\\",
+        "projectPath": "/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/Persistencia.csproj",
+        "packagesPath": "/home/et12alumno/.nuget/packages/",
+        "outputPath": "/mnt/Datos/Repos/Grupo_de_Proyecto_Informatico_2/Persistencia/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/et12alumno/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -39,11 +39,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -61,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.109/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
