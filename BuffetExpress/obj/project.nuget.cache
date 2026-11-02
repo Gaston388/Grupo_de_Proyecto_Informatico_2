@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "P81EV/2A5Ds=",
+  "success": true,
+  "projectFilePath": "C:\\repos\\Proyecto2\\Grupo_de_Proyecto_Informatico_2\\BuffetExpress\\BuffetExpress.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}
